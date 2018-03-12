@@ -5,4 +5,4 @@ require_once 'namespace-class.php';
 use foo\bar\Baz;
 
 $baz = new Baz();
-$baz->greetings();
+$baz->greetings(); // echoes Hello World!

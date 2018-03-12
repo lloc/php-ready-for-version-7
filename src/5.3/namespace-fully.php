@@ -3,4 +3,4 @@
 include 'namespace-class.php';
 
 $baz = new \foo\bar\Baz();
-$baz->greetings();
+$baz->greetings(); // echoes Hello World!
