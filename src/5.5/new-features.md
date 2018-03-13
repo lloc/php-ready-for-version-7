@@ -2,9 +2,9 @@
 
 - **Generators added**
 - **`finally` keyword added**
-- `foreach` now supports `list()`
-- array and string literal dereferencing
-- Class name resolution via `::class`
+- **`foreach` now supports `list()`**
+- **Class name resolution via `::class`**
+- array and string literal dereferencing, e.g. `echo 'PHP'[0];`
 - `foreach` now supports non-scalar keys
 - `empty()` supports arbitrary expressions
 - New password hashing API
