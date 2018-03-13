@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dennisploetner
- * Date: 13/03/18
- * Time: 18.15
- */
+
+require_once 'variadic-functions.php';
+
+use const lloc\foo\TWO;
+use function lloc\foo\bar;
+
+// echoes 6
+echo bar( 1, TWO, 3 ), PHP_EOL;
