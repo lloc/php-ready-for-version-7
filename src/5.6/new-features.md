@@ -1,10 +1,10 @@
 # New features in PHP 5.6
 
-- Constant expressions
-- Variadic functions via ...
-- Argument unpacking via ...
-- Exponentiation via **
-- use function and use const
+- **Constant expressions**
+- **Variadic functions via ...**
+- **Argument unpacking via ...**
+- **Exponentiation via `**`**
+- **use function and use const**
 - phpdbg
 - Default character encoding
 - php://input is reusable
