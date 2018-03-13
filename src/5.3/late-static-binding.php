@@ -2,16 +2,17 @@
 
 class Foo {
 
-	public static function baz() {
-		return self::class . ' >> ' . static::class;
+	public static function a() {
+		return new self();
+	}
+
+	public static function b() {
+		return new static();
 	}
 
 }
 
 class Bar extends Foo { }
 
-$foo = new Foo();
-echo $foo->baz(), PHP_EOL; // echoes Foo >> Foo
-
-$bar = new Bar();
-echo $bar->baz(), PHP_EOL; // echoes Foo >> Bar
+// echoes Foo >> Bar
+echo get_class( Bar::a() ), ' >> ', get_class( Bar::b() ), PHP_EOL;
