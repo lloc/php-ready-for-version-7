@@ -1,7 +1,9 @@
 <?php
 
 $foo = function( $name ) {
-	printf("Hello %s!", $name );
+	// new feature shorthand ternary $name ? $name : 'World'
+	return sprintf("Hello %s!", $name ?: 'World' );
 };
 
-$foo( 'World' ); // echoes Hello World!
+// echoes Hello Berlin! >> Hello World!
+echo $foo( 'Berlin' ), ' >> ', $foo( '' ), PHP_EOL;

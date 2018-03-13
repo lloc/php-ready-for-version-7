@@ -3,7 +3,7 @@
 class Foo {
 
 	public static function baz() {
-		echo self::class, ' >> ', static::class, PHP_EOL;
+		return self::class . ' >> ' . static::class;
 	}
 
 }
@@ -11,7 +11,7 @@ class Foo {
 class Bar extends Foo { }
 
 $foo = new Foo();
-$foo->baz(); // echoes Foo >> Foo
+echo $foo->baz(), PHP_EOL; // echoes Foo >> Foo
 
 $bar = new Bar();
-$bar->baz(); // echoes Foo >> Bar
+echo $bar->baz(), PHP_EOL; // echoes Foo >> Bar

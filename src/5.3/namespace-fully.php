@@ -1,6 +1,6 @@
 <?php
 
-include 'namespace-class.php';
+require_once 'namespace-class.php';
 
-$baz = new \foo\bar\Baz();
-$baz->greetings(); // echoes Hello World!
+$bar = new \lloc\foo\Bar();
+echo $bar->baz(), PHP_EOL; // echoes Hello World!

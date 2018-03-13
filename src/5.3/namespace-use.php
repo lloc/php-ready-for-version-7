@@ -2,7 +2,7 @@
 
 require_once 'namespace-class.php';
 
-use foo\bar\Baz;
+use lloc\foo\Bar;
 
-$baz = new Baz();
-$baz->greetings(); // echoes Hello World!
+$bar = new Bar();
+echo $bar->baz(), PHP_EOL; // echoes Hello World!

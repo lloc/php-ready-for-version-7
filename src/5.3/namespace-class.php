@@ -1,10 +1,10 @@
 <?php
 
-namespace foo\bar;
+namespace lloc\foo;
 
-class Baz {
+class Bar {
 
-	public function greetings() {
-		echo 'Hello World!';
+	public function baz() {
+		return 'Hello World!';
 	}
 }

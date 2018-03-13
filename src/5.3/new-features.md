@@ -1,10 +1,10 @@
 # New features in PHP 5.3
 
-- Namespaces
-- Late Static Bindings
-- Native Closures (Lambda/Anonymous functions)
-- `const` keyword outside a class
+- **Namespaces**
+- **Late Static Bindings**
+- **Native Closures** (Lambda/Anonymous functions)
 - shorthand `?:` for the ternary operator
+- `const` keyword outside a class, e.g. `const CONSTANT = 'Hello World';`
 - Dynamic access to static methods
 - Nested Exceptions
 - Jump labels (limited goto)
