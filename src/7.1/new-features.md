@@ -1,12 +1,12 @@
 # New features in PHP 7.1
 
-- Nullable types
-- Void functions
-- Symmetric array destructuring
-- Class constant visibility
+- **Nullable types**
+- **Void functions**
+- **Symmetric array destructuring**
+- **Support for keys in `list()`**
+- **Class constant visibility**
 - iterable pseudo-type
 - Multi catch exception handling
-- Support for keys in `list()`
 - Support for negative string offsets
 - Support for AEAD in ext/openssl
 - Convert callables to Closures with `Closure::fromCallable()`
