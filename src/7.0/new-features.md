@@ -1,9 +1,9 @@
 # New features in PHP 7.0
 
-- Scalar type declarations
-- Return type declarations
-- Null coalescing operator
-- Spaceship operator
+- **Scalar type declarations**
+- **Return type declarations**
+- **Null coalescing operator**
+- **Spaceship operator**
 - Constant arrays using `define()`
 - Anonymous classes
 - Unicode codepoint escape syntax
