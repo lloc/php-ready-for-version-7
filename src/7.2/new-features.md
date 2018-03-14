@@ -1,8 +1,8 @@
 # New features in PHP 7.2
 
-- New object type
-- Abstract method overriding
-- Parameter type widening
+- **New object type**
+- **Abstract method overriding**
+- **Parameter type widening[*](https://blog.kelunik.com/2018/01/23/parameter-type-widening.html)**
 - Extension loading by name
 - Sodium is now a core extension
 - Password hashing with Argon2 
