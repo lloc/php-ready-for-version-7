@@ -8,6 +8,12 @@ PHP is evolving continuously. Do you know what the different versions of our fav
 
 [Source](https://blog.digitalocean.com/getting-ready-for-php-7/)
 
+## Why I start with version 5.2
+
+[Mark Jaquith posted](https://wordpress.org/news/2010/07/eol-for-php4-and-mysql4/) in June 2010 that the WordPress core developers planned to drop support for PHP 4 in favour of PHP 5.2. He stated that also the developers of the Drupal and Joomla project made this decision.
+
+The official support for PHP 5.2 ended in January 2011. In PHP 5.3 were probably some difficult backward compatibility issues. But as you can see: This decision made in 2011 is still today valid, even if it is not easily testable.
+
 ## New Language Features
 
 Let's talk this time about the most exciting new features that will be available when you upgrade to the next PHP version.
