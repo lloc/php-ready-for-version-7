@@ -1,6 +1,6 @@
 <?php
 
-// Constant expressions is a new feature too
+// Exponantiation via ** is a new feature too
 const FOUR = 2 ** 2;
 
 const SIXTEEN = FOUR ** 2;
